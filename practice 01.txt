@@ -17,4 +17,4 @@ git push origin +master	실제로 Git에 Push.
 
 # 2021 02 18 first practice in my life
 
-Github 
+for Github 
