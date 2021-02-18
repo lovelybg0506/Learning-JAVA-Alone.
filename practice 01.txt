@@ -1,0 +1,17 @@
+[ Pull ]
+
+git pull origin master	지정 해 놓은 repository에서 끌어옴.
+
+
+
+[ Push ]
+
+git status		현재 Git 과의 상태를 Check.
+
+git add .		변경된 파일들을 모두 Tracking.
+
+git commit -m "message"	인식 할 수 있는 commit 을 달아줌.
+
+git push origin +master	실제로 Git에 Push.
+
+,
