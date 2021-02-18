@@ -16,3 +16,4 @@ git push origin +master	실제로 Git에 Push.
 
 
 # 추가된 메시지
+# 2021 02 18 first practice in my life
