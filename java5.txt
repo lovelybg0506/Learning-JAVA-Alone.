@@ -1,0 +1,23 @@
+package java05;
+
+import java.util.Scanner;
+
+public class whileExam {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in); // Scanner sc  컴파일 후 숫자 입력할수 있게해줌.
+		int i = sc.nextInt(); // 숫자입력값.
+		while(i < 10) {        // i가 10보다 작은동안 계속 실행
+			
+			System.out.print(i);
+			System.out.print("x");
+			System.out.print(i);
+			System.out.print("=");
+			System.out.println(i*i);
+			i++;
+		}
+	}
+
+}
