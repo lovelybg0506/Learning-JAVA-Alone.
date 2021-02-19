@@ -1,0 +1,14 @@
+
+public class review {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub  / review 01. printf
+		
+		
+		
+		System.out.println("복습 내용 : print");
+		System.out.print("ln을 붙이면 엔터키 효과");
+
+	}
+
+}

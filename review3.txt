@@ -1,0 +1,57 @@
+
+public class review3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub  // review3  if
+		
+		String review = "복습하는중입니다.";
+		int a = 5;
+		int b = 6;
+		
+		if (review == "복습하는중입니다.") {
+		System.out.println("잘하고 있습니다.");
+		}
+		
+		else if (review == "복습하지 않고 있습니다.") {
+			System.out.println("복습 하세요.");
+				
+		}
+		
+		else if (review == "복습 다했다.") {
+		System.out.println("잘했다.");
+		}
+		
+		else if (review == "복습 안할겁니다.") {
+		System.out.println("복습 하세요.");
+		}
+		
+		
+		if (a == 5) {
+			System.out.println("5는 홀수입니다.");
+		}
+		else if (a == 5 && a == 6) {
+			System.out.println("5는 홀수, 6은 짝수입니다.");
+			
+		}
+		else if (a == 5 || a == 6) {
+			System.out.println("5만 홀수입니다.");
+			
+		}
+		
+		if (a == 5) {
+			System.out.println("5");
+		}
+			else if (b == 6);
+				System.out.println("6");
+
+		if (a == 5 && b == 6) {
+			System.out.println("5와 6");
+		}
+			else if (a == 5 || b == 2) {
+				System.out.println("5 나 6이 아닙니다.");
+				
+		}
+		}
+
+	}
+
