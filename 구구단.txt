@@ -1,0 +1,52 @@
+package java04;
+
+import java.util.Scanner;
+
+public class for99 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+																		// 구구단 (가로)
+		for (int i=2; i<10; i++) {
+			System.out.print("[구구단" + i + "단] \t");
+		}
+		System.out.println();
+		
+		for(int i =1; i<10; i++) {
+		for(int j =2; j<10; j++) {
+			System.out.print(j + "X" + i + "=" + + i*j + "\t\t");
+			
+		}System.out.println();
+		
+		}
+	}
+}
+
+/* 
+  
+   
+   
+   package java04;
+ 
+
+public class for99세로 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+													//구구단 (세로) 
+		
+		for(int i=2; i<10; i++) {
+			System.out.println("\t[구구단" + i + "단]");
+			
+		for(int j=1; j<10; j++) {
+			System.out.println("\t " + i + "X" + j + "=" + i*j);
+		
+		}
+		System.out.println();
+		}
+	}
+}
+	
+
+
+*/
