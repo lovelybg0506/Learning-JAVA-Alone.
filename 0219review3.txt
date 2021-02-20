@@ -1,0 +1,37 @@
+public class review3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+/*		
+		int i =0;
+		
+		while(i<10) {
+			System.out.println();
+			i++;
+	}
+
+*/
+		
+		/*
+		int total = 0;		// 
+		int i = 1;
+		while(i<=100) {
+			total = total + i;  //
+			i++;
+		}
+		
+		System.out.println(total);
+	}
+}*/
+
+		
+		int sum = 0;
+		int i= 0;
+		// i를 1씩 증가시켜서 sum에 계속 더해나간다.
+		while(sum <= 5050) {
+			System.out.printf("%d - %d%n",i,sum);
+			sum += ++i;					// (+= 누적)
+		}
+		
+	}
+}

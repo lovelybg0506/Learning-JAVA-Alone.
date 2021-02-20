@@ -1,0 +1,20 @@
+
+public class review2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		for(int i=2;i<10;i++) {						//구구단 가로
+			System.out.print("[구구단"+i+"단]\t");
+		}
+		System.out.println();
+		for(int i=1;i<10;i++) {					
+		for(int j=2;j<10;j++) {								//for(int) 밑에있는 j 부터 실행되니까 위아래 숫자 바꿔줘야 됨.	
+			System.out.print(j+"*"+i+"="+i*j+("\t\t"));     //그리고 여기서 j랑 i 위치 바꿔주기
+															//줄맞춤이랑 println은 중괄호 위치 잘 보고 써야함 아직 한번에 코딩하긴 힘든듯
+		}
+			System.out.println();
+	}
+	
+}
+}
